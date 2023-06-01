@@ -1,0 +1,1045 @@
+/* medida para telefono */
+@media ( max-width:915px) {
+    /* primera tarjeta de arriba */
+   body {
+
+    color:indigo;
+    
+    max-width: 100px;
+    margin: 0 auto;
+   }
+   body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+   .titulo{
+    position: absolute;
+    top: 0%;
+    left: 75%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+   .parrafo{
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 80%;
+    height: 50%;
+    text-align: center;
+   }
+   .video{
+    position: absolute;
+    left: 100%;
+    top: 15%;
+   }
+   div iframe{
+    width: 300px;
+    height: auto;
+    border: solid 10px;
+    border-color: #1266f1;
+    border-radius: 10px;
+
+   }
+  
+
+   /* redes sociales */
+   .pie{
+    position: absolute;
+    top: 100%;
+    left: 0%;
+   }
+   .correo{
+    position: absolute;
+    top: 50%;
+    left: 100%;    margin: 0px 100%;
+    font-size: 30px;
+    font-family: fantasy;
+   }
+   .share {
+    width: 150px;
+    height: 150px;
+    margin: 5em auto;
+    background: rgba(10, 237, 189, 1.0);
+    background: -webkit-radial-gradient(top left, rgba(10, 237, 189, 1.0), rgba(37, 211, 103, 1.0));
+    background: -moz-radial-gradient(top left, rgba(10, 237, 189, 1.0), rgba(37, 211, 103, 1.0));
+    background: radial-gradient(to bottom right, rgba(10, 237, 189, 1.0), rgba(37, 211, 103, 1.0));
+    text-align: center;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 20px 20px rgba(0, 0, 0,0.2);
+  }
+  
+  .share a {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .share::after {
+    content: "hablame";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .share:hover::after {
+    color: transparent;
+  }
+  
+  .share:hover {
+    background: rgba(242, 41, 92, 1.0);
+    background: -webkit-radial-gradient(top left, rgba(242, 41, 92, 1.0), rgba(41, 172, 225, 1.0));
+    background: -moz-radial-gradient(top left, rgba(242, 41, 92, 1.0), rgba(41, 172, 225, 1.0));
+    background: radial-gradient(to bottom right, rgba(242, 41, 92, 1.0), rgba(41, 172, 225, 1.0));
+  }
+  
+  .share a.fb {
+    background: #1266f1;
+    top: -5.65em;
+    left: -2.8em;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .share a.tw {
+    background: #28abe1;
+    top: -6.55em;
+    right: -9.39em;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .share a.ins {
+    background: #f2295b;
+    bottom: 6.55em;
+    left: -7.5em;
+    -webkit-tra3nsition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .share a.wh {
+    background: #25d366;
+    right: -2.81em;
+    bottom: 7.5em;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .share:hover a.fb {
+    top: -1em;
+  }
+  
+  .share:hover a.tw {
+    right: -2.8em;
+  }
+  
+  .share:hover a.ins {
+    left: -2.8em;
+  }
+  
+  .share:hover a.wh {
+    bottom: 15.2em;
+  }
+  
+  .facebook {
+    padding-top: 10%;
+  }
+  
+  .instagram {
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+  
+  .whatsapp {
+    padding-left: 0%;
+    padding-top: 10%;
+  }
+  
+  .twitter {
+    padding-top: 25%;
+    padding-left: 10%;
+  }
+  
+  .fb:hover {
+    box-shadow: 0px 10px 40px rgba(0, 0, 0,0.5) inset;
+  }
+  
+  .tw:hover {
+    box-shadow: 10px 5px 30px 2px rgba(0, 0, 0,0.5) inset;
+  }
+  
+  .ins:hover {
+    box-shadow: 0px 10px 25px rgba(0, 0, 0,0.5) inset;
+  }
+  
+  .wh:hover {
+    box-shadow: 5px 20px 20px rgba(0, 0, 0,0.5) inset;
+  }
+  
+.hearts-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.heart {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background-image: url('heart.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transform: translate(-50%, -50%);
+  animation: explode 1.5s linear infinite;
+}
+
+.message-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.message {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  opacity: 0;
+  animation: fade-in 1s 1s forwards;
+}
+
+@keyframes explode {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* musica */
+.username{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #f2295b;
+}
+.voice-chat-card {
+  position: absolute;
+  top: 70%;
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #ccc;
+  padding: 10px;
+  background-color: #e8e8e8;
+}
+
+.voice-chat-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: black;
+  background-color: #333;
+}
+
+.username {
+  margin: 0;
+  font-size: 18px;
+  color: black;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  margin-left: 10px;
+}
+
+.voice-chat-card-body {
+  padding: 10px;
+}
+
+.status-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.audio-container {
+  display: flex;
+  align-items: center;
+}
+
+audio {
+  width: 100%;
+}
+/* siguiente */
+.btn {
+  height: 4em;
+  width: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 0px solid black;
+}
+
+.wrapper {
+  height: 2em;
+  width: 8em;
+  position: relative;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: 17px;
+  z-index: 1;
+  color: #000;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.7);
+  transition: all 0.5s ease;
+}
+
+.flower {
+  display: grid;
+  grid-template-columns: 1em 1em;
+  position: absolute;
+  transition: grid-template-columns 0.8s ease;
+}
+
+.flower1 {
+  top: -12px;
+  left: -13px;
+  transform: rotate(5deg);
+}
+
+.flower2 {
+  bottom: -5px;
+  left: 8px;
+  transform: rotate(35deg);
+}
+
+.flower3 {
+  bottom: -15px;
+  transform: rotate(0deg);
+}
+
+.flower4 {
+  top: -14px;
+  transform: rotate(15deg);
+}
+
+.flower5 {
+  right: 11px;
+  top: -3px;
+  transform: rotate(25deg);
+}
+
+.flower6 {
+  right: -15px;
+  bottom: -15px;
+  transform: rotate(30deg);
+}
+
+.petal {
+  height: 1em;
+  width: 1em;
+  border-radius: 40% 70% / 7% 90%;
+  background: linear-gradient(#07a6d7, #93e0ee);
+  border: 0.5px solid #96d1ec;
+  z-index: 0;
+  transition: width 0.8s ease, height 0.8s ease;
+}
+
+.two {
+  transform: rotate(90deg);
+}
+
+.three {
+  transform: rotate(270deg);
+}
+
+.four {
+  transform: rotate(180deg);
+}
+
+.btn:hover .petal {
+  background: linear-gradient(#0761d7, #93bdee);
+  border: 0.5px solid #96b4ec;
+}
+
+.btn:hover .flower {
+  grid-template-columns: 1.5em 1.5em;
+}
+
+.btn:hover .flower .petal {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.btn:hover .text {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.btn:hover div.flower1 {
+  animation: 15s linear 0s normal none infinite running flower1;
+}
+
+@keyframes flower1 {
+  0% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(365deg);
+  }
+}
+
+.btn:hover div.flower2 {
+  animation: 13s linear 1s normal none infinite running flower2;
+}
+
+@keyframes flower2 {
+  0% {
+    transform: rotate(35deg);
+  }
+
+  100% {
+    transform: rotate(-325deg);
+  }
+}
+
+.btn:hover div.flower3 {
+  animation: 16s linear 1s normal none infinite running flower3;
+}
+
+@keyframes flower3 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.btn:hover div.flower4 {
+  animation: 17s linear 1s normal none infinite running flower4;
+}
+
+@keyframes flower4 {
+  0% {
+    transform: rotate(15deg);
+  }
+
+  100% {
+    transform: rotate(375deg);
+  }
+}
+
+.btn:hover div.flower5 {
+  animation: 20s linear 1s normal none infinite running flower5;
+}
+
+@keyframes flower5 {
+  0% {
+    transform: rotate(25deg);
+  }
+
+  100% {
+    transform: rotate(-335deg);
+  }
+}
+
+.btn:hover div.flower6 {
+  animation: 15s linear 1s normal none infinite running flower6;
+}
+
+@keyframes flower6 {
+  0% {
+    transform: rotate(30deg);
+  }
+
+  100% {
+    transform: rotate(390deg);
+  }
+}
+}
+  /* Estilos específicos para pantallas más grandes */
+  @media screen and (min-width: 1024px) {
+    body {
+
+      color:indigo;
+      
+      max-width: 100px;
+      margin: 0 auto;
+     }
+     body {
+      margin: 0;
+      padding: 0;
+    }
+    
+    #video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+     .titulo{
+      position: absolute;
+      top: 0%;
+      left: 50%;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     }
+     .parrafo{
+      font-size: 20px;
+      position: absolute;
+      top: 15%;
+      left: 0%;
+      width: 80%;
+      height: 50%;
+      text-align: center;
+     }
+     .video{
+      position: absolute;
+      left: 80%;
+      top: 15%;
+     }
+     div video{
+      width: 300px;
+      height: auto;
+      border: solid 10px;
+      border-color: #1266f1;
+      border-radius: 10px;
+  
+     }
+    
+  
+     /* redes sociales */
+     .pie{
+      position: absolute;
+      top: 80%;
+      left: 10%;
+     }
+     .correo{
+      position: absolute;
+      top: 50%;
+      left: 100%;    margin: 0px 100%;
+      font-size: 30px;
+      font-family: fantasy;
+     }
+     .share {
+      width: 150px;
+      height: 150px;
+      margin: 5em auto;
+      background: rgba(10, 237, 189, 1.0);
+      background: -webkit-radial-gradient(top left, rgba(10, 237, 189, 1.0), rgba(37, 211, 103, 1.0));
+      background: -moz-radial-gradient(top left, rgba(10, 237, 189, 1.0), rgba(37, 211, 103, 1.0));
+      background: radial-gradient(to bottom right, rgba(10, 237, 189, 1.0), rgba(37, 211, 103, 1.0));
+      text-align: center;
+      border-radius: 100%;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 20px 20px rgba(0, 0, 0,0.2);
+    }
+    
+    .share a {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      width: 90px;
+      height: 90px;
+      position: relative;
+      z-index: 1;
+    }
+    
+    .share::after {
+      content: "hablame";
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 40%;
+      font-size: 25px;
+      font-weight: bold;
+      font-style: italic;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    
+    .share:hover::after {
+      color: transparent;
+    }
+    
+    .share:hover {
+      background: rgba(242, 41, 92, 1.0);
+      background: -webkit-radial-gradient(top left, rgba(242, 41, 92, 1.0), rgba(41, 172, 225, 1.0));
+      background: -moz-radial-gradient(top left, rgba(242, 41, 92, 1.0), rgba(41, 172, 225, 1.0));
+      background: radial-gradient(to bottom right, rgba(242, 41, 92, 1.0), rgba(41, 172, 225, 1.0));
+    }
+    
+    .share a.fb {
+      background: #1266f1;
+      top: -5.65em;
+      left: -2.8em;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .share a.tw {
+      background: #28abe1;
+      top: -6.55em;
+      right: -9.39em;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .share a.ins {
+      background: #f2295b;
+      bottom: 6.55em;
+      left: -7.5em;
+      -webkit-tra3nsition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .share a.wh {
+      background: #25d366;
+      right: -2.81em;
+      bottom: 7.5em;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    .share:hover a.fb {
+      top: -1em;
+    }
+    
+    .share:hover a.tw {
+      right: -2.8em;
+    }
+    
+    .share:hover a.ins {
+      left: -2.8em;
+    }
+    
+    .share:hover a.wh {
+      bottom: 15.2em;
+    }
+    
+    .facebook {
+      padding-top: 10%;
+    }
+    
+    .instagram {
+      padding-left: 10%;
+      padding-top: 5%;
+    }
+    
+    .whatsapp {
+      padding-left: 0%;
+      padding-top: 10%;
+    }
+    
+    .twitter {
+      padding-top: 25%;
+      padding-left: 10%;
+    }
+    
+    .fb:hover {
+      box-shadow: 0px 10px 40px rgba(0, 0, 0,0.5) inset;
+    }
+    
+    .tw:hover {
+      box-shadow: 10px 5px 30px 2px rgba(0, 0, 0,0.5) inset;
+    }
+    
+    .ins:hover {
+      box-shadow: 0px 10px 25px rgba(0, 0, 0,0.5) inset;
+    }
+    
+    .wh:hover {
+      box-shadow: 5px 20px 20px rgba(0, 0, 0,0.5) inset;
+    }
+    
+  .hearts-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+  
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url('heart.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: translate(-50%, -50%);
+    animation: explode 1.5s linear infinite;
+  }
+  
+  .message-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .message {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    opacity: 0;
+    animation: fade-in 1s 1s forwards;
+  }
+  
+  @keyframes explode {
+    0% {
+      transform: translate(-50%, -50%) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(2);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  /* musica */
+  .username{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f2295b;
+  }
+  .voice-chat-card {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #ccc;
+    padding: 10px;
+    background-color: #e8e8e8;
+  }
+  
+  .voice-chat-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: black;
+    background-color: #333;
+  }
+  
+  .username {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+  }
+  
+  .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    margin-left: 10px;
+  }
+  
+  .voice-chat-card-body {
+    padding: 10px;
+  }
+  
+  .status-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .audio-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  audio {
+    width: 100%;
+  }
+  /* siguiente */
+  .btn{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+  }
+  .btn {
+    height: 4em;
+    width: 12em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 0px solid black;
+  }
+  
+  .wrapper {
+    height: 2em;
+    width: 8em;
+    position: relative;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    font-size: 17px;
+    z-index: 1;
+    color: #000;
+    padding: 4px 12px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.7);
+    transition: all 0.5s ease;
+  }
+  
+  .flower {
+    display: grid;
+    grid-template-columns: 1em 1em;
+    position: absolute;
+    transition: grid-template-columns 0.8s ease;
+  }
+  
+  .flower1 {
+    top: -12px;
+    left: -13px;
+    transform: rotate(5deg);
+  }
+  
+  .flower2 {
+    bottom: -5px;
+    left: 8px;
+    transform: rotate(35deg);
+  }
+  
+  .flower3 {
+    bottom: -15px;
+    transform: rotate(0deg);
+  }
+  
+  .flower4 {
+    top: -14px;
+    transform: rotate(15deg);
+  }
+  
+  .flower5 {
+    right: 11px;
+    top: -3px;
+    transform: rotate(25deg);
+  }
+  
+  .flower6 {
+    right: -15px;
+    bottom: -15px;
+    transform: rotate(30deg);
+  }
+  
+  .petal {
+    height: 1em;
+    width: 1em;
+    border-radius: 40% 70% / 7% 90%;
+    background: linear-gradient(#07a6d7, #93e0ee);
+    border: 0.5px solid #96d1ec;
+    z-index: 0;
+    transition: width 0.8s ease, height 0.8s ease;
+  }
+  
+  .two {
+    transform: rotate(90deg);
+  }
+  
+  .three {
+    transform: rotate(270deg);
+  }
+  
+  .four {
+    transform: rotate(180deg);
+  }
+  
+  .btn:hover .petal {
+    background: linear-gradient(#0761d7, #93bdee);
+    border: 0.5px solid #96b4ec;
+  }
+  
+  .btn:hover .flower {
+    grid-template-columns: 1.5em 1.5em;
+  }
+  
+  .btn:hover .flower .petal {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  
+  .btn:hover .text {
+    background: rgba(255, 255, 255, 0.4);
+  }
+  
+  .btn:hover div.flower1 {
+    animation: 15s linear 0s normal none infinite running flower1;
+  }
+  
+  @keyframes flower1 {
+    0% {
+      transform: rotate(5deg);
+    }
+  
+    100% {
+      transform: rotate(365deg);
+    }
+  }
+  
+  .btn:hover div.flower2 {
+    animation: 13s linear 1s normal none infinite running flower2;
+  }
+  
+  @keyframes flower2 {
+    0% {
+      transform: rotate(35deg);
+    }
+  
+    100% {
+      transform: rotate(-325deg);
+    }
+  }
+  
+  .btn:hover div.flower3 {
+    animation: 16s linear 1s normal none infinite running flower3;
+  }
+  
+  @keyframes flower3 {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .btn:hover div.flower4 {
+    animation: 17s linear 1s normal none infinite running flower4;
+  }
+  
+  @keyframes flower4 {
+    0% {
+      transform: rotate(15deg);
+    }
+  
+    100% {
+      transform: rotate(375deg);
+    }
+  }
+  
+  .btn:hover div.flower5 {
+    animation: 20s linear 1s normal none infinite running flower5;
+  }
+  
+  @keyframes flower5 {
+    0% {
+      transform: rotate(25deg);
+    }
+  
+    100% {
+      transform: rotate(-335deg);
+    }
+  }
+  
+  .btn:hover div.flower6 {
+    animation: 15s linear 1s normal none infinite running flower6;
+  }
+  
+  @keyframes flower6 {
+    0% {
+      transform: rotate(30deg);
+    }
+  
+    100% {
+      transform: rotate(390deg);
+    }
+  }
+  }
